@@ -1,0 +1,68 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*  {
+    margin: 0;
+    padding: 0;
+    font-family: "Work Sans", sans-serif;
+}
+ul,li {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+.container {
+    width: 1920px;
+    margin: 0 auto;
+}
+
+/* Banner CSS */
+#banner {
+    background: linear-gradient(0.00deg, rgb(16, 16, 16) -19.5%, rgba(16, 16, 16, 0) 100%), url(../assets/hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+}
+.banner_content {
+    width: 70%;
+    padding: 264px 0px;
+    text-align: center;
+}
+
+.banner_content h3 {
+    font-weight: 600;
+    font-size: 32px;
+    color: #fff;
+    padding-bottom: 16px;
+}
+
+.banner_content h1 {
+    font-weight: 700;
+    font-size: 64px;
+    color: #fff;
+    padding-bottom: 24px;
+}
+.banner_content p {
+    font-weight: 400;
+    font-size: 28px;
+    color: #fff;
+    padding-bottom: 32px;
+}
+.banner_content button {
+    font-weight: 600;
+    font-size: 20px;
+    color: #fff;
+    padding: 21px 32px;
+    background-color: #52C303;
+    border: none;
+    border-radius: 5px;
+    transition: all linear 0.2s;
+}
+.banner_content button:hover{
+    background-color: antiquewhite;
+    color: #000;
+    
+}
