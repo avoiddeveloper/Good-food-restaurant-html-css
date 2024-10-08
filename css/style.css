@@ -25,6 +25,7 @@ a {
     background-position: center;
     display: flex;
     justify-content: center;
+    margin-bottom: 120px;
 }
 .banner_content {
     width: 70%;
@@ -63,6 +64,163 @@ a {
 }
 .banner_content button:hover{
     background-color: antiquewhite;
-    color: #000;
-    
+    color: #101010;    
+}
+
+/* Brand CSS */
+#brands {
+    margin-bottom: 120px;
+}
+.heading {
+    text-align: center;
+}
+.heading h4 {
+    font-size: 24px;
+    font-weight: 500;
+    color: #101010;
+    padding-bottom: 16px;
+}
+.heading h2 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #101010;
+    padding-bottom: 48px;
+}
+
+.cards_container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.cards_container button {
+    padding: 21px 32px;
+    border: none;
+    border-radius: 5px;
+    background-color: #52C303;
+}
+
+.card {
+    width: 640px;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+}
+.card button {
+    font-size: 24px;
+    font-weight: 600;
+    color: #101010;
+    padding: 14px 32px;
+    background-color: #53c3031d;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 18px;
+    transition: all linear 0.2s;
+}
+.card button:hover {
+    background-color: #52C303;
+}
+.card h4{
+    font-size: 40px;
+    font-weight: 600;
+    color: #101010;
+    margin-bottom: 12px;
+}
+.card p{
+    font-size: 16px;
+    font-weight: 5000;
+    color: #101010;
+    margin-bottom: 12px;
+}
+
+.brand_button {
+    text-align: center;
+    margin-top: 30px;
+}
+.brand_button button {
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+    padding: 21px 32px;
+    background-color: #52C303;
+    border: none;
+    border-radius: 5px;
+    transition: all linear 0.2s;
+}
+.brand_button button:hover {
+    background-color: antiquewhite;
+    color: #101010;
+}
+
+/* Footer CSS */
+.footer_container {
+    display: flex;
+    margin-bottom: 48px;
+}
+.footer_left {
+    width: 50%;
+}
+.footer_left img {
+    width: 100%;
+}
+.footer_right {
+    width: 50%;
+    padding: 135px 55px;
+    text-align: center;
+}
+.footer_right h3 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #101010;
+    margin-bottom: 24px;
+}
+.footer_right p {
+    font-size: 24px;
+    font-weight: 500;
+    color: #10101098;
+    margin-bottom: 24px;
+}
+.footer_right h4 {
+    font-size: 32px;
+    font-weight: 600;
+    color: #10101098;
+    padding: 32px 0px;
+    border-top: 1px solid #10101060;
+    border-bottom: 1px solid #10101060;
+    margin-bottom: 20px;
+}
+.footer_right a i {
+    font-size: 40px;
+    padding: 0px 20px;
+    color: #8a2be2;
+}
+.copyright {
+    text-align: center;
+    padding: 25px 0px;
+    background-color: #53c3031d;
+}
+.copyright small {
+    font-weight: 700;
+    color: #101010;
+}
+
+/* Single Page */
+.container_main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.single_card p {
+    margin-bottom: 30px;
+}
+.single_card a {
+    font-size: 30px;
+    padding: 20px;
+    background-color:#52C303;
+    border-radius: 50%;
 }
